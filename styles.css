@@ -1,0 +1,59 @@
+html {
+    width: 1366px;
+    height: 4826px;
+}
+body {
+    margin: 0px;
+}
+/* barra de navegação*/
+.orangeline {
+    background-color: #F38222;
+    height: 5px;
+    padding: 5px;
+}
+
+.blackline {
+    background-color: #000000;
+    height: 5px;
+    padding: 5px;
+}
+.logodiv {
+    display: inline-block;
+    margin-right: 70px;
+}
+.sectionnavdiv {
+    display: inline-block;
+    position:absolute;
+    margin-top:5%;
+    
+}
+.btn1nav {
+    display:inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn2nav {
+    display:inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn3nav {
+    display:inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn4nav {
+    display:inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn5nav {
+    display:inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btnnav {
+    font-size: 24px;
+
+}
+
