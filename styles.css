@@ -1,6 +1,7 @@
 html {
     width: 1366px;
     height: 4826px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body {
     margin: 0px;
@@ -24,36 +25,82 @@ body {
 .sectionnavdiv {
     display: inline-block;
     position:absolute;
-    margin-top:5%;
+    margin-top:3%;
     
 }
 .btn1nav {
     display:inline-block;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 0px;
+
+
 }
 .btn2nav {
     display:inline-block;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 0px;
+
 }
 .btn3nav {
     display:inline-block;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 0px;
+
 }
 .btn4nav {
     display:inline-block;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 0px;
+
 }
 .btn5nav {
     display:inline-block;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 0px;
 }
 .btnnav {
-    font-size: 24px;
+    font-size: 32px;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+.blacklinep {
+    background-color: #000000;
+    height: 2px;
+    padding: 2px;
+}
+/*DIVULGAÇÃO PRINCIPAL BANNER*/
+.textfundo {
+    display: flex;
+}
+.text1 {
+    display: flex;
+    position: absolute;
+    right: 9%;
+    top: 35%;
+}
+.text2 {
+    display: flex;
+    position: absolute;
+    position: absolute;
+    right: 9%;
+    top: 50%;
+}
+.text3 {
+    display: flex;
+    position: absolute;
+    position: absolute;
+    right: 9%;
+    top: 65%;
+}
+.textfundo {
+    font-size: 50px;
+}
+
+
 
