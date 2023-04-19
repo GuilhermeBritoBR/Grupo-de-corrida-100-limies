@@ -1,6 +1,7 @@
 html{
-    width: 1366px;
-    height: 3100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .orange2line {
@@ -21,6 +22,8 @@ html{
     margin: 0px;
 }
 body {
+    width: 1366px;
+    height: 3100px;
     margin: 0px;
 }
 .h3 {
