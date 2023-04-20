@@ -14,6 +14,10 @@ html{
     height: 5px;
     padding: 5px;
 }
+.hrefclass {
+    color: black;
+    text-decoration: none;
+}
 
 .blackline {
     background-color: #000000;
@@ -23,7 +27,7 @@ html{
 }
 body {
     width: 1366px;
-    height: 3100px;
+    height: 2900px;
     margin: 0px;
 }
 .h3 {
@@ -77,16 +81,23 @@ body {
         top:20%;
       }
       .logoinstadiv {
+        margin-top: 40px;
           display: inline-block;
-          margin:156px;
+          margin-left:156px;
+          margin-right: 156px;
       }
       .logofacediv {
+        margin-top: 40px;
+          
+          margin-left:156px;
+          margin-right: 156px;
           display: inline-block;
-          margin:156px;
       }
       .logowhatsdiv {
+        margin-top: 40px;
           display: inline-block;
-          margin:156px;
+          margin-right:156px;
+          margin-left: 156px
       }
       
       
@@ -192,11 +203,17 @@ body {
     left: 50px;
 }
 .card3corridas {
+    
+    padding-top: 143px;
     text-align: center;
     display: inline-block;
     margin-left: 50px;
     margin-top:0px;
     margin-bottom:0px;
+}
+.imagecard3div {
+    
+    
 }
 .titlecard3{
     margin: 25px;

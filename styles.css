@@ -9,7 +9,7 @@ html {
 body { 
     margin: 0px;
     width: 1366px;
-    height: 4126px;
+    height: 3880px;
 }
 .h2 {
     font-size: 32px;
@@ -55,6 +55,10 @@ footer{
     background-color: #000000;
     
     
+}
+.hrefclass {
+    color: black;
+    text-decoration: none;
 }
 /* barra de navegação*/
 .orangeline {
@@ -230,15 +234,24 @@ footer{
 }
 .logoinstadiv {
     display: inline-block;
-    margin:156px;
+    margin-top: 40px;
+          
+    margin-left:156px;
+    margin-right: 156px;
 }
 .logofacediv {
     display: inline-block;
-    margin:156px;
+    margin-top: 40px;
+          
+          margin-left:156px;
+          margin-right: 156px;
 }
 .logowhatsdiv {
     display: inline-block;
-    margin:156px;
+    margin-top: 40px;
+          
+          margin-left:156px;
+          margin-right: 156px;
 }
 
 
