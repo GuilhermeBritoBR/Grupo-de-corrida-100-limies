@@ -120,6 +120,7 @@ body {
 
 /*começo do card*/
 .cardcaldiv {
+    position: relative;
     align-items: center;
     margin-left: 196.5px;
     margin-right: 196.5px;
@@ -139,7 +140,7 @@ body {
 .kmcaixadiv {
     margin-bottom: 45px;
 }
-.km1button {
+#km1button {
     width: 190px;
     height: 52px;
     border-style: solid;
@@ -150,7 +151,7 @@ body {
 .tempocaixadiv {
     margin-bottom: 45px;
 }
-.tempo1button {
+#tempo1button {
     width: 190px;
     height: 52px;
     border-style: solid;
@@ -177,17 +178,41 @@ body {
     margin-bottom: 45px;
 }
 /*resultado*/
-.divinputresultado {
-    
-    height: 52px;
-    width: 190px;
-    background-color: #000000;
-    color:#ffffff;
-    margin-left: 391.5px;
+.divinputresultadokm {
+    margin:10px;
+    color: #000000;
 }
-.resultado {
-    padding-top: 15px;
-    margin: 0px;
+.divinputresultadopace {
+    
+    margin:10px;
+    color: #000000;
+}
+.resultadocard {
+    justify-content: center;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 5px;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    background-color:#ffffff;
+}
+#resultadopace {
+   display: flex;
+    color: #000000;
+    font-size: 24px;
+    
+}
+#resultadokm {
+    font-size: 24px;
+  display: flex;
+    color: #000000;
+  
+    color: #000000;
+   
+   
 }
 /*segundo card*/
 .card2caldiv {

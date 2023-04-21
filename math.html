@@ -63,16 +63,18 @@
     </div>
     <div class="funcionalidadesdiv">
         <div class="kmcaixadiv">
-        <input class="km1button">
+        <input id="km1button" value="QUILOMETROS">
         </div>
         <div class="tempocaixadiv">
-        <input class="tempo1button">
+        <input id="tempo1button" value="MINUTOS">
         </div>
         <div class="buttoncalculadoradiv">
-        <button class="calcularbutton"><h3 class="calcula">CALCULE</h3></button>
+        <button onclick="pace()" class="calcularbutton"><h3 class="calcula">CALCULE</h3></button>
         </div>
-        <div class="divinputresultado">
-            <h2 class="resultado">RESULTADO</h2>
+        <div class="resultadocard">
+        <div class="divinputresultadokm">
+            <p id="resultadokm" class="resultado"></p>
+        </div>
         </div>
     </div>
 </div>
