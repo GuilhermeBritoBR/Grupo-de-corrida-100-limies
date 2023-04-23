@@ -9,7 +9,7 @@ html {
 body { 
     margin: 0px;
     width: 1366px;
-    height: 3880px;
+    height: 1800px;
 }
 .h2 {
     font-size: 32px;
@@ -116,7 +116,7 @@ footer{
 .mktdiv {
     position: relative;
     width: 1366px;
-    height: 800px;
+    height: 600px;
    
 }
 /*<----------------------------------------->*/
@@ -124,7 +124,7 @@ footer{
 .entrevistacard {
     position: absolute;
     left:0%;
-    top:6%;
+    top:3%;
     height:741px;
     width: 360px;
     display: inline-block;
@@ -137,16 +137,20 @@ footer{
 }
 /*sisrun card*/
 .sisruncard {
-    top: 6%;
-    left: 35%;
+    top: 3%;
+    left: 33.5%;
     position: absolute;
     display: inline-block;
     text-align: center;
     margin:50px;
 }
+.imgsisrun {
+    height: 60%;
+    width: 60%;
+}
 /*assistencia profissional card*/
 .profissional {
-    top: 6%;
+    top: 3%;
     position: absolute;
     right: 0%;
     text-align: center;
@@ -155,14 +159,31 @@ footer{
     margin: 50px;
 }
 .imgprofidiv {
-    height:741px;
-    width: 360px;
+  
 }
 .imgprofi {
-    height:741px;
-    width: 360px;
  
  
+ 
+}
+/*contato botão parte*/
+.acessediv {
+    text-align: center;
+}
+.contato {
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+/*motiva div*/
+.motivadiv {
+    margin: 45px;
+    text-align: center;
 }
 /*aqui é o rodapé*/
 .rodapédiv {
