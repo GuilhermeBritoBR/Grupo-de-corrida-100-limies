@@ -114,7 +114,15 @@ body {
     margin:75px;
     text-align: center;
 }
+.texttitleh1 {
+    display: inline-block;
 
+    
+}
+.texth1 {
+    font-size: 48px;
+    margin:0px;
+}
     
     
 

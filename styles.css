@@ -167,7 +167,10 @@ footer{
     top: 300px;
     right: 800px;
 }
-
+.hrefprincipal {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 /* card sobre a missão do grupo*/
 .carddiv {
@@ -187,7 +190,10 @@ footer{
     height: 594px;
 }
 /*sobre o professor*/
-
+.h1prof {
+    font-size: 48px;
+    margin-bottom: 0px;
+}
 .profsobre {
     position: relative;
 }
@@ -214,7 +220,26 @@ footer{
 }
 /*locais de treino seção e informações*/
 .horariosdiv {
+    margin-top: 30px;
     text-align: center;
+    margin-bottom:30px;
+    
+}
+.horarios {
+    background-color: #F38222;
+    display: inline-block;
+    border-style: solid;
+    border-color:#000000;
+    border-width: 10px;
+}
+.divmapa{
+    margin: 30px;
+    border-style: solid;
+    border-width: 10px;
+    border-color:#000000;
+}
+.textlow {
+    
 }
 /*aqui é o rodapé*/
 .rodapédiv {
