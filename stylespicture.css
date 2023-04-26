@@ -9,7 +9,7 @@ html {
 body { 
     margin: 0px;
     width: 1366px;
-    height: 1800px;
+    height: 1500px;
 }
 .h2 {
     font-size: 32px;
@@ -117,11 +117,101 @@ footer{
     font-size:48px;
     margin-bottom:0px;
 }
+/*estilização da seção de card*/
+.cardsdiv{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 /*primeiro card*/
 .primeirocarddiv {
+    display:inline-block;
     margin: 45px;
     text-align: center;
+    background-color:#F38222;
+    border-style: solid;
+    border-color: #000000;
+    border-width:10px;
+    border-radius: 4%;
 }
-.titulocard {
+.h1text{
+    margin-bottom:0px;
+    margin-top:20px;
+}
+.titulocarddiv {
+  display: inline-block;
+    margin-bottom:0px;
+}
+.picturediv {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.imgcard1 {
+    height: 70%;
+    width:70%;
+}
+/*segundo card*/
+.segundocard {
+    display:inline-block;
+    margin: 45px;
+    text-align: center;
+    background-color:#F38222;
+    border-style: solid;
+    border-color: #000000;
+    border-width:10px;
+    border-radius: 4%;
+}
+.imgcard2{
+    height: 70%;
+    width:70%;
+}
+/*rodapé*/
+.rodapédiv {
+    background-color: #000000;
+    position: relative;
+    
 
 }
+.orange2line {
+    background-color: #F38222;
+    height: 10px;
+    padding: 10px;
+}
+.networking {
+  left:10%;
+  top:20%;
+}
+.logoinstadiv {
+    display: inline-block;
+    margin-top: 40px;
+          
+    margin-left:156px;
+    margin-right: 156px;
+}
+.logofacediv {
+    display: inline-block;
+    margin-top: 40px;
+          
+          margin-left:156px;
+          margin-right: 156px;
+}
+.logowhatsdiv {
+    display: inline-block;
+    margin-top: 40px;
+          
+          margin-left:156px;
+          margin-right: 156px;
+}
+
+
+.creditbrito {
+    display: flex;
+    text-align: center;
+    margin-left: 465px;
+    
+    
+}
+.h4credit {
+    color: #ffffff;
+}
+
