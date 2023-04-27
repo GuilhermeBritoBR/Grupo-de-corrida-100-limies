@@ -116,6 +116,7 @@ footer{
 .texth1 {
     font-size:48px;
     margin-bottom:0px;
+   
 }
 /*estilização da seção de card*/
 .cardsdiv{
@@ -133,6 +134,7 @@ footer{
     border-color: #000000;
     border-width:10px;
     border-radius: 4%;
+    
 }
 .h1text{
     margin-bottom:0px;
@@ -149,6 +151,19 @@ footer{
 .imgcard1 {
     height: 70%;
     width:70%;
+}
+.botaodeacesso {
+    
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color:#000000;
+    border-style: solid;
+    color: #ffffff;
+    background-color: #000000;
+    margin-bottom: 20px;
+    
 }
 /*segundo card*/
 .segundocard {

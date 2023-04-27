@@ -1,10 +1,13 @@
 function pace()  {
     let distancia = document.getElementById("km1button");
-    let tempo = document.getElementById("tempo1button");
-    let resultado = (distancia.value / (tempo.value*60))*3.6;
+    let horas = document.getElementById("horasbutton");
+    let minutos = document.getElementById("minutosbutton");
+    let segundos = document.getElementById("segundosbutton");
+    let tempo = ((horas.value*60)+minutos.value+(segundos.value/60));
+    let resultado = (distancia.value / tempo.value);
     let resultadopace = (60/resultado);
-    document.getElementById("resultadokm").innerText = resultado.toFixed(2) +" KM/H";
-    document.getElementById("resultadopace").innerText = resultadopace.toFixed(2) +" MIN/H";
+    document.getElementById("resultadokm").innerText = resultado +" KM/H";
+    document.getElementById("resultadodopace").innerText = resultadopace.toFixed(2) +" MIN/H";
 }
 
 function calculartempo()   {
