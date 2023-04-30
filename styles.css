@@ -194,6 +194,7 @@ footer{
 .h1prof {
     font-size: 48px;
     margin-bottom: 0px;
+    
 }
 .profsobre {
     position: relative;
@@ -209,11 +210,20 @@ footer{
 }
 .tituloprof {
     margin-bottom: 50px;
+    width: 355px;
 }
 .buttoncontatoprof {
     position: absolute;
     left: 170px;
     bottom:80px;
+}
+.h4l{
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:16px;
+}
+.list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*imagem do grupo na goodyear*/
 .gruponagydiv {
