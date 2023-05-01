@@ -1,0 +1,133 @@
+html{
+    padding:0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    width:360px;
+    height: 700px;
+    position: relative;
+}
+/*estilização padrão do mobile*/
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:12px;
+    margin: 0px;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:8px;
+}
+.orangeline{
+    padding: 6.5px;
+    background-color: #F38222;
+}
+.blackline{
+    padding:6.5px;
+    background-color: #000000;
+}
+/*estilização da navegação*/
+.instagram, .facebook, .logo, .sanduiche, .icons{
+    display:inline-block;
+}
+nav{
+    position: relative;
+}
+.iconface{
+    width: 30px;
+    height: 30px;
+}
+.iconlogo{
+    width: 100px;
+    height:95.16px;
+}
+.iconinsta{
+    width: 30px;
+    height: 30px;
+}
+.instagram{
+    margin-right:28px;
+    margin-left: 14px;
+    margin-bottom:21px;
+}
+.sanduiche{
+    position: absolute;
+    right: 20px;
+}
+.logo{
+    position: absolute;
+    left:130px;
+}
+/*estilização do cover(parte da iimagem principal e botão faça aprte!)*/
+.cover{
+}
+.botaofaçaparte{
+    display: inline-block;
+}
+.inputblack{
+    top:170px;
+    left:130px;
+    display:inline-block;
+    position:absolute;
+    width: 100px;
+    height:25px;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+.imagemprincipal{
+    height:143px;
+}
+.imgcover{
+    width:360px;
+    height:143px;
+}
+/*estilização do card sobre missão*/
+.card{
+    justify-content:center;
+}
+#missão{
+    text-align: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color:#000000;
+    margin-left:130px;
+    margin-top: 25px;
+    margin-bottom:25px;
+    background-color: #F38222;
+    width: 100px;
+    height: 25px;
+}
+.h1missao{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:12px;
+    margin-top: 6.5px;
+}
+/*imagem do grupo*/
+.gyimg{
+    width:360px;
+    height: 143px;
+}
+.goodyear{
+    height:143px;
+}
+/*informações sobre o horarios e locais*/
+.titulo{
+    margin-top: 25px;
+    text-align: center;
+}
+.informações{
+    text-align:left;
+}
+.treinos{
+    margin-bottom: 25px;
+}
+/*rodaé*/
+footer{
+    background-color: #000000;
+    color:#ffffff;
+    text-align: center;
+    padding:30px;
+}
