@@ -99,7 +99,7 @@ footer{
     font-size: 32px;
     margin-bottom: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    cursor: pointer;
 }
 .blacklinep {
     background-color: #000000;
@@ -163,7 +163,7 @@ footer{
     color: #ffffff;
     background-color: #000000;
     margin-bottom: 20px;
-    
+    cursor: pointer;
 }
 /*segundo card*/
 .segundocard {

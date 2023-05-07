@@ -99,7 +99,7 @@ footer{
     font-size: 32px;
     margin-bottom: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    cursor: pointer;
 }
 .blacklinep {
     background-color: #000000;
@@ -205,7 +205,7 @@ footer{
     color: #ffffff;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    cursor: pointer;
 
 }
 /*motiva div*/

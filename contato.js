@@ -5,3 +5,18 @@ function contato()   {
         exit
       }
 }
+function calendariodeprovas()   {
+  window.location.href= "run.html";
+}
+function galeria()    {
+  window.location.href= "pictures.html";
+}
+function facaparte()    {
+  window.location.href= "mkt.html"
+}
+function calculadora()   {
+  window.location.href= "math.html";
+}
+function home()    {
+  window.location.href= "index.html"
+}

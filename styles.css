@@ -36,6 +36,7 @@ body {
     color: #ffffff;
     background-color: #000000;
     margin: 0px;
+    cursor: pointer;
     
 }
 .btnblackmenor {
@@ -49,7 +50,7 @@ body {
     color: #ffffff;
     background-color: #000000;
     margin: 0px;
-    
+    cursor: pointer;
 }
 footer{
     background-color: #000000;
@@ -59,8 +60,12 @@ footer{
 .hrefclass {
     color: black;
     text-decoration: none;
+    
 }
 /* barra de navegação*/
+.btnnav{
+    cursor: pointer;
+}
 .orangeline {
     background-color: #F38222;
     height: 5px;
