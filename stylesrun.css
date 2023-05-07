@@ -73,44 +73,7 @@ body {
     background-color: #000000;
     margin: 0px;
 }
-.rodapédiv {
-    background-color: #000000;
-    position: relative;}
-    .networking {
-        left:10%;
-        top:20%;
-      }
-      .logoinstadiv {
-        margin-top: 40px;
-          display: inline-block;
-          margin-left:156px;
-          margin-right: 156px;
-      }
-      .logofacediv {
-        margin-top: 40px;
-          
-          margin-left:156px;
-          margin-right: 156px;
-          display: inline-block;
-      }
-      .logowhatsdiv {
-        margin-top: 40px;
-          display: inline-block;
-          margin-right:156px;
-          margin-left: 156px
-      }
-      
-      
-      .creditbrito {
-          display: flex;
-          text-align: center;
-          margin-left: 465px;
-          
-          
-      }
-      .h4credit {
-          color: #ffffff;
-      }
+
       
 /*navegação*/
 .navegaçãodiv {
@@ -264,4 +227,66 @@ body {
     border-style: solid;
     border-width: 10px;
     border-color: #000000;
+}
+/*rodape*/
+.rodapédiv {
+    padding-top: 30px;
+    background-color: #000000;
+    position: relative;
+    text-align: center;
+    
+
+}
+.orange2line {
+    background-color: #F38222;
+    height: 10px;
+    padding: 10px;
+}
+
+.logoinstadiv {
+   text-align: center;
+   height: 64px;
+
+ 
+}
+.logofacediv {
+    margin-top: 20px;
+    text-align: center;
+position: relative;
+height: 64px;
+         
+}
+
+.logoinsta, .logoface{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    
+}
+
+.creditbrito {
+    text-align: center;
+    
+    
+}
+.h4credit {
+    margin-top: 50px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+.h4mkt2{
+    padding: 14px;
+    display:inline-block;
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+.h4mkt1{
+    padding: 14px;
+    display:inline-block;
+    color: #ffffff;
+    margin-bottom: 0px;
+    
+    
 }

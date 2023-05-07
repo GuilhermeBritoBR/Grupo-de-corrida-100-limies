@@ -184,6 +184,7 @@ footer{
 .rodapédiv {
     background-color: #000000;
     position: relative;
+    text-align: center;
     
 
 }
@@ -193,40 +194,53 @@ footer{
     padding: 10px;
 }
 .networking {
-  left:10%;
-  top:20%;
+ margin-top: 30px;
 }
 .logoinstadiv {
-    display: inline-block;
-    margin-top: 40px;
-          
-    margin-left:156px;
-    margin-right: 156px;
+   text-align: center;
+   height: 64px;
+
+ 
 }
 .logofacediv {
-    display: inline-block;
-    margin-top: 40px;
-          
-          margin-left:156px;
-          margin-right: 156px;
-}
-.logowhatsdiv {
-    display: inline-block;
-    margin-top: 40px;
-          
-          margin-left:156px;
-          margin-right: 156px;
+    margin-top: 20px;
+    text-align: center;
+position: relative;
+height: 64px;
+         
 }
 
+.logoinsta, .logoface{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    
+}
 
 .creditbrito {
-    display: flex;
     text-align: center;
-    margin-left: 465px;
     
     
 }
 .h4credit {
+    margin-top: 50px;
     color: #ffffff;
+    padding-bottom: 30px;
+}
+.h4mkt2{
+    padding: 14px;
+    display:inline-block;
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+.h4mkt1{
+    padding: 14px;
+    display:inline-block;
+    color: #ffffff;
+    margin-bottom: 0px;
+    
+    
 }
 
