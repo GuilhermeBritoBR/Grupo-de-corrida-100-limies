@@ -57,6 +57,9 @@ body {
     display: inline-block;
     margin-right: 70px;
 }
+.logo{
+    cursor: pointer;
+}
 .sectionnavdiv {
     display: inline-block;
     position:absolute;
