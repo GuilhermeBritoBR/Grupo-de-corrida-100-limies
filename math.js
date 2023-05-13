@@ -18,12 +18,12 @@ function pace()  {
 function calculartempo()   {
 	let distancia= parseFloat(document.getElementById("metragem").value);
 	let pace= parseFloat(document.getElementById("pacepreciso").value);
-	let tempo= distancia*pace;
-	if(tempo >= 60){
-		tempo= tempo/60 + " Horas";
-	}else{
-		tempo= tempo + " Minutos";
-	}
-	
-	document.getElementById("tempopreciso").innerText= tempo;
+	let segundos_do_primeiro = Math.floor(pace);
+	let segundos_do_segundo = (pace - segundos_do_primeiro)*100;
+	let tempo= distancia*((segundos_do_primeiro*60)+(segundos_do_segundo));
+	let resultado_bruto= tempo/60,
+	minutos_liquido = Math.floor(resultado_bruto),
+	segundos_liquido = Math.floor((resultado_bruto-minutos_liquido)*60)/100;
+	resultado = minutos_liquido+ segundos_liquido;
+	document.getElementById("tempopreciso").innerText= resultado;
 }
