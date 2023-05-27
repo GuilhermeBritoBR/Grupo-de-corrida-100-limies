@@ -34,6 +34,11 @@ body {
     font-size: 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.h3:hover{
+    font-size: 40px;
+    text-shadow: 0.0em 0.0em 0.1em #000000;
+    cursor:pointer;
+}
 .h2 {
     font-size: 32px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -148,6 +153,7 @@ body {
 .h1run {
     font-size: 48px;
     margin-bottom:0px;
+    text-shadow: 0.1em 0.1em 0.2em #000000;
 }
 .titlecalrun{
     text-align: center;
@@ -159,6 +165,11 @@ body {
 .titlecard1 {
     text-align: center;
     margin: 25px;
+}
+
+.imagecard1:hover{
+    box-shadow: 0.0em 0.0em 1.4em #000000;
+
 }
 .card2corridas{
     display: inline-block;
@@ -175,6 +186,10 @@ body {
 .imagecard2div{
     left: 50px;
 }
+.imagecard2:hover{
+    box-shadow: 0.0em 0.0em 1.4em #000000;
+
+}
 .card3corridas {
     
     padding-top: 143px;
@@ -187,6 +202,18 @@ body {
 .imagecard3div {
     
     
+}
+.imagecard3:hover{
+    box-shadow: 0.0em 0.0em 1.4em #000000;
+
+}
+.imagecard4:hover{
+    box-shadow: 0.0em 0.0em 1.4em #000000;
+
+}
+.imagecard5:hover{
+    box-shadow: 0.0em 0.0em 1.4em #000000;
+
 }
 .titlecard3{
     margin: 25px;

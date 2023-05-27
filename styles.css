@@ -72,7 +72,7 @@ footer{
     cursor: pointer;
 }
 .btnnav:hover  {
-    text-shadow: 0.1em 0.1em 0.2em #000000;
+    text-shadow: 0.0em 0.0em 0.1em #000000;
 
 } 
 .orangeline {
@@ -96,11 +96,6 @@ footer{
 }
 .logo{
     cursor: pointer;
-}
-.logo:hover{
-    height: 170px;
-    width: 180px;
-
 }
 .sectionnavdiv {
     display: inline-block;
