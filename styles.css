@@ -1,16 +1,5 @@
 
-html {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-body { 
-    margin: 0px;
-    width: 1366px;
-    height: 3880px;
-}
+
 .h2 {
     font-size: 32px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -39,6 +28,14 @@ body {
     cursor: pointer;
     
 }
+.btnblack:hover  {
+    background-color: #1d1b1b;
+    text-shadow: 0.1em 0.1em 0.2em #ffffff;
+    width: 210px;
+    height: 55px;
+    box-shadow: 0.0em 0.0em 0.8em #000000;
+
+}
 .btnblackmenor {
     position: absolute;
     font-size: 24px;
@@ -51,6 +48,14 @@ body {
     background-color: #000000;
     margin: 0px;
     cursor: pointer;
+}
+.btnblackmenor:hover {
+    background-color: #1d1b1b;
+    text-shadow: 0.1em 0.1em 0.2em #ffffff;
+    width: 150px;
+    height: 45px;
+    box-shadow: 0.0em 0.0em 0.8em #000000;
+
 }
 footer{
     background-color: #000000;
@@ -66,6 +71,10 @@ footer{
 .btnnav{
     cursor: pointer;
 }
+.btnnav:hover  {
+    text-shadow: 0.1em 0.1em 0.2em #000000;
+
+} 
 .orangeline {
     background-color: #F38222;
     height: 5px;
@@ -87,6 +96,11 @@ footer{
 }
 .logo{
     cursor: pointer;
+}
+.logo:hover{
+    height: 170px;
+    width: 180px;
+
 }
 .sectionnavdiv {
     display: inline-block;
@@ -191,6 +205,14 @@ footer{
     border-style: solid;
     border-width: 10px;
     text-align: center;
+    text-shadow: 0.1em 0.1em 0.1em #ffffff;
+}
+.carddiv:hover{
+    font-size: 20px;
+    text-shadow: 0.1em 0.1em 0.1em #ffffff;
+    box-shadow: 0.0em 0.0em 0.8em #000000;
+
+
 }
 .titlemissão {
 
@@ -251,6 +273,14 @@ footer{
     border-style: solid;
     border-color:#000000;
     border-width: 10px;
+    text-shadow: 0.1em 0.1em 0.1em #ffffff;
+}
+.horarios:hover  {
+   font-size: 32px;
+   text-shadow: 0.1em 0.1em 0.2em #ffffff;
+   box-shadow: 0.0em 0.0em 0.8em #000000;
+
+
 }
 .divmapa{
     margin: 30px;
@@ -258,6 +288,9 @@ footer{
     border-width: 10px;
     border-color:#000000;
     height: 450px;
+}
+.divmapa:hover{
+    box-shadow: 0.0em 0.0em 0.8em #000000;
 }
 .textlow {
     
@@ -301,8 +334,12 @@ height: 64px;
 
 .creditbrito {
     text-align: center;
+    cursor: pointer;
     
     
+}
+.creditbrito:hover{
+    font-size: 20px;
 }
 .h4credit {
     margin-top: 50px;
@@ -314,8 +351,7 @@ height: 64px;
     display:inline-block;
     color: #ffffff;
     margin-bottom: 0px;
-    margin-top: 0px;
-    
+    margin-top: 0px;    
 }
 .h4mkt1{
     padding: 14px;
@@ -324,4 +360,12 @@ height: 64px;
     margin-bottom: 0px;
     
     
+}
+.logoface:hover{
+    width: 60px;
+    height: 60px;
+}
+.logoinsta:hover {
+    width: 60px;
+    height: 60px;
 }

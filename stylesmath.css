@@ -125,6 +125,8 @@ body {
 .texth1 {
     font-size: 48px;
     margin:0px;
+    text-shadow: 0.0em 0.0em 0.1em #000000;
+
 }
     
     
@@ -142,9 +144,14 @@ body {
     border-style: solid;
     border-color:#000000;
     border-width:10px;
+    box-shadow: 0.0em 0.0em 0.4em #000000;
+
 }
+
 .titlecard {
     margin: 40px;
+    text-shadow: 0.0em 0.0em 0.4em #ffffff;
+
 }
 
 /* primeiro input perguntando km*/
@@ -159,14 +166,18 @@ body {
     border-color:#000000;
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0.0em 0.0em 0.8em #ffffff;
+
 }
 /*segundo input perguntando tempo*/
 .tempocaixadiv {
     margin-bottom: 45px;
     text-align: center;
+    
 }
 .horas{
     margin:5px;
+    
 }
 .minutos{
     margin:5px;
@@ -175,6 +186,7 @@ body {
     margin:5px;
 }
 #horasbutton {
+    box-shadow: 0.0em 0.0em 0.8em #ffffff;
 
     width: 190px;
     height: 52px;
@@ -185,7 +197,8 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #minutosbutton {
-    
+    box-shadow: 0.0em 0.0em 0.8em #ffffff;
+
     width: 190px;
     height: 52px;
     border-style: solid;
@@ -195,7 +208,8 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #segundosbutton {
-   
+    box-shadow: 0.0em 0.0em 0.8em #ffffff;
+
     width: 190px;
     height: 52px;
     border-style: solid;
@@ -207,7 +221,8 @@ body {
 
 /*botão que é para calcular*/
 .calcularbutton {
-    
+    box-shadow: 0.0em 0.0em 0.8em #ffffff;
+
     background-color:#000000;
     color: #ffffff;
     height: 52px;
@@ -216,6 +231,10 @@ body {
     cursor: pointer;
     
     
+}
+.calcularbutton:hover{
+    background-color: #1d1b1b;
+    text-shadow: 0.1em 0.1em 0.2em #ffffff;
 }
 .calcula {
     margin:0px;
@@ -235,6 +254,8 @@ body {
     color: #000000;
 }
 .resultadocard {
+    box-shadow: 0.0em 0.0em 1.6em #ffffff;
+
     position: absolute;
     display: inline-block;
     justify-content: center;
@@ -264,6 +285,7 @@ body {
 }
 /*segundo card*/
 .card2caldiv {
+    box-shadow: 0.0em 0.0em 0.4em #000000;
     position: relative;
     align-items: center;
     margin-left: 196.5px;
@@ -280,6 +302,8 @@ body {
     
 }
 .resultadocard2 {
+    box-shadow: 0.0em 0.0em 1.6em #ffffff;
+
     position: absolute;
     display: inline-block;
     justify-content: center;
@@ -302,6 +326,8 @@ body {
     margin:45px;
 }
 #pacepreciso {
+    box-shadow: 0.0em 0.0em 0.8em #ffffff;
+
     width: 190px;
     height: 52px;
     border-style: solid;
@@ -312,6 +338,8 @@ body {
     color: #000000;
 }
 #metragem {
+    box-shadow: 0.0em 0.0em 0.8em #ffffff;
+
     width: 190px;
     height: 52px;
     border-style: solid;
@@ -323,6 +351,8 @@ body {
     color:#000000;
 }
 #tempopreciso {
+    box-shadow: 0.0em 0.0em 0.8em #ffffff;
+
     margin-bottom: 12px;
     margin-top: 12px;
     font-size: 24px;
