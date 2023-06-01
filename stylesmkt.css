@@ -211,6 +211,13 @@ footer{
     cursor: pointer;
 
 }
+.contato:hover{
+    background-color: #1d1b1b;
+    text-shadow: 0.1em 0.1em 0.2em #ffffff;
+    width: 210px;
+    height: 55px;
+    box-shadow: 0.0em 0.0em 0.8em #000000;
+}
 /*motiva div*/
 .motivadiv {
     margin: 45px;
